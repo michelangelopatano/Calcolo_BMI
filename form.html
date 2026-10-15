@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calcultor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calcolatore BMI</h1>
+    <div class="boxmain">
+        <h1>Calcolatore BMI</h1>
 
-    <form action="bmi.php" method="post">
-        <label for="title">Nome</label><br>
-        <input type="text" name="Nome" id="nome"><br><br>
+        <div class="boxform">
+            <form action="bmi.php" method="post" >
 
-        
-    </form>
+                <div class="rigaform">
+                    <label for="title">Nome</label><br>
+                    <input type="text" name="name" id="nome">
+                </div>
+
+                <div class="rigaform">
+                    <label for="title">Peso (Kg)</label><br>
+                    <input type="text" name="pesp" id="peso">
+                </div>
+
+                <div class="rigaform">
+                    <label for="title">Altezza (Cm)</label><br>
+                    <input type="number" name="altezza" id="altezza">
+                </div>
+
+                
+
+                <input type="submit" name="Calcola">
+
+
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
