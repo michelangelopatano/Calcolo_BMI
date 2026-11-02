@@ -8,3 +8,47 @@
         input:focus { border-color: #18181b; }
         button { margin-top: 0.5rem; padding: 0.625rem; background: #1f2328; color: #fff; border: 0; border-radius: 6px; font-weight: 500; cursor: pointer; }
         button:hover { background: #27272a; }
+
+
+.card-risultato {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bmi-valore {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.bmi-etichetta {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card.sottopeso {
+    background-color: #E3EEF9;
+    border: 2px solid #2F6FB3;
+    color: #2F6FB3;
+}
+
+.card.normopeso {
+    background-color: #E3F4E6;
+    border: 2px solid #256D34;
+    color: #256D34;
+}
+
+.card.sovrappeso {
+    background-color: #FCEBD7;
+    border: 2px solid #9A4F06;
+    color: #9A4F06;
+}
+
+.card.obesita {
+    background-color: #FBE2E2;
+    border: 2px solid #B32D2D;
+    color: #B32D2D;
+}
